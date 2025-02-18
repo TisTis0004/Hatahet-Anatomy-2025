@@ -217,16 +217,16 @@ h2 a {
 .card:hover h2 a {
   color: #0e1b51;
 }
-/* .final-card {
+.card {
   filter: blur(2px) grayscale(100%);
 }
-.final-card h2 {
+.card h2 {
   cursor: default;
 }
-.final-card:hover {
+.card:hover {
   filter: blur(0) grayscale(100%);
   box-shadow: none;
-} */
+}
 .coming-soon {
   margin-top: 2.5rem;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -275,4 +275,8 @@ a:visited {
 }
 .card a:-webkit-any(link) {
   color: #e2e2e2;
+}
+.locked-button {
+  /* pointer-events: none; */
+  cursor: not-allowed !important;
 }
