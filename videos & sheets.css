@@ -1,0 +1,240 @@
+* {
+  scroll-behavior: smooth;
+}
+#first {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #181133;
+  color: #fff;
+  /* height: 120vh; */
+}
+#second {
+  background-color: #181133;
+}
+#final {
+  background-color: #181133;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+main {
+  margin: 3rem 4rem 4rem 4rem;
+  padding: 1rem;
+  /* background-color: transparent; */
+  background-image: linear-gradient(#c8c84e, orange);
+  border-radius: 100px;
+  border: 10px solid #bf8221;
+}
+h1 {
+  background-color: #6ab9ee;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2.4rem;
+  padding: 1rem 2rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #fff;
+  text-align: center;
+  border: 10px solid #000000;
+  border-radius: 2rem;
+}
+.videos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 3rem 0;
+  gap: 35px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  background-color: #faf6f2;
+  text-decoration: none;
+  transition: box-shadow 0.3s 0s ease, transform 0.3s 0s ease;
+  border: 3px solid black;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #faf6f2;
+}
+.card img {
+  border-radius: 6px 6px 0 0;
+  border-bottom: 3px solid black;
+}
+.card p {
+  color: black;
+  text-transform: capitalize;
+  padding: 0rem 0.5rem;
+  font-size: 1.2rem;
+  font-family: "Protest Riot", sans-serif;
+}
+.card:hover {
+  box-shadow: 3px 3px 15px #fff, -3px -3px 15px #fff;
+  transform: scale(1.05);
+}
+h2 {
+  width: fit-content;
+  background-color: #fff;
+  color: #bf8221;
+  font-family: sans-serif;
+  font-size: 2rem;
+  padding: 1rem;
+  border: 10px solid #bf8221;
+  border-radius: 3rem 0 3rem 0;
+  margin: 1rem 0 0 60px;
+}
+h1,
+h2 {
+  cursor: default;
+}
+/* Muscular System */
+#muscular-box {
+  background-image: linear-gradient(#d77f77, #9c3e36);
+  border-color: #d74538;
+}
+#muscular-head {
+  border-color: #da5043;
+  color: #da5043;
+}
+#muscualr-videos {
+  justify-content: left;
+  margin-left: 60px;
+}
+#muscualr-videos a img {
+  filter: saturate(0.8);
+}
+/* Cardiovascular System */
+#cardiovascular-box {
+  background-image: linear-gradient(#ff5353, #3d3dff);
+  border-color: black;
+}
+#cardiovascular-head {
+  border-color: black;
+  color: black;
+}
+#cardiovascular-videos {
+  justify-content: left;
+  margin-left: 60px;
+}
+/* Respiratory system */
+#respiratory-box {
+  background-image: linear-gradient(#d8d7d7, #00aeff);
+  border-color: #007bb4;
+}
+#respiratory-head {
+  border-color: #007bb4;
+  color: #007bb4;
+}
+#respiratory-videos {
+  justify-content: left;
+  margin-left: 60px;
+}
+/* Gastrointestinal system */
+#gastrointestinal-box {
+  background-image: linear-gradient(#d8d7d7, #05c7a0);
+  border-color: #039679;
+}
+#gastrointestinal-head {
+  border-color: #039679;
+  color: #039679;
+}
+#gastrointestinal-videos {
+  justify-content: left;
+  margin-left: 60px;
+}
+/*!===============================================================*/
+#Lymphatic-box {
+  background-image: linear-gradient(#d8d7d7, #05b65a);
+  border-color: #03964a;
+}
+#Lymphatic-head {
+  border-color: #03964a;
+  color: #03964a;
+}
+#Lymphatic-videos {
+  justify-content: left;
+  margin-left: 60px;
+}
+/*!===============================================================*/
+/* Unariy system */
+#urinary-box {
+  background-image: linear-gradient(#d0849f, #8d0b4d);
+  border-color: #730c3f;
+}
+#urinary-head {
+  border-color: #730c3f;
+  color: #730c3f;
+}
+#urinary-videos {
+  filter: saturate(0.75);
+}
+#urinary-videos {
+  justify-content: left;
+  margin-left: 60px;
+}
+/* Reproductive */
+#reproductive-box {
+  background-image: linear-gradient(#23018b, #e80094);
+  border-color: #3401cc;
+}
+#reproductive-head {
+  border-color: #e80094;
+  color: #3401cc;
+}
+#reproductive-videos {
+  justify-content: left;
+  margin-left: 60px;
+}
+/* Nervous system */
+#nervous-box {
+  background-image: linear-gradient(#1b507e, #121212);
+  border-color: #000000;
+}
+#nervous-videos {
+  justify-content: left;
+  margin-left: 60px;
+}
+#nervous-head {
+  border-color: #000;
+  color: #000;
+}
+/* Embryology */
+#embryology-box {
+  background-image: linear-gradient(#f97e6c, #5b0a0b);
+  border-color: #420708;
+}
+#embryology-videos {
+  justify-content: left;
+  margin-left: 60px;
+}
+#embryology-head {
+  border-color: #420708;
+  color: #420708;
+}
+/* main {
+  background-color: red;
+} */
+::-webkit-scrollbar {
+  width: 1rem;
+  background-color: #0a153e;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #4cb9e7;
+  border-radius: 5px;
+}
+#muscular-container,
+#cardiovascular-container,
+#respiratory-container,
+#gastrointestinal-container {
+  height: 370px;
+}

@@ -1,0 +1,71 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 20vh;
+  background-color: #002845;
+  color: white;
+  padding: 2rem 1.5rem;
+  box-sizing: border-box;
+}
+.footer p {
+  font-size: 1.2rem;
+  font-family: "Cairo", sans-serif;
+  margin: 0;
+}
+.footer p a:first-child {
+  color: #59ffff;
+  font-weight: 900;
+  text-decoration: none;
+  transition: color 0.2s 0s ease;
+}
+.footer p a:first-child:hover {
+  color: #b457fb;
+}
+.rights {
+  direction: rtl;
+  align-self: flex-end;
+}
+.footer div {
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  transition: background-color 0.3s 0s ease-in-out;
+  transform-origin: left;
+  position: relative;
+  z-index: 2;
+}
+.footer div a svg {
+  color: #fff;
+  transition: transform 0.3s 0s ease, color 0.3s 0s ease;
+}
+#youtube:hover {
+  color: #ff0000;
+}
+#telegram:hover {
+  color: #23a8e9;
+}
+#facebook:hover {
+  color: #0866ff;
+}
+#coffee:hover {
+  color: #ffdd00;
+}
+.footer div a svg:hover {
+  transform: translateY(-4px);
+}
+#contact-icons-background {
+  position: absolute;
+  z-index: -1;
+  width: 200px;
+  background-color: #9d2dff;
+  transform: rotateY(90deg);
+  transform-origin: left;
+  transition: transform 0.4s 0.6s ease;
+  border-radius: 5px;
+}
+.contact-icon {
+  transition: color 0.9s 1s ease, transform 0.3s 0s ease;
+}

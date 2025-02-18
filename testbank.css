@@ -1,0 +1,36 @@
+.main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
+}
+.material {
+  width: 400px;
+  height: 500px;
+  background-color: white;
+
+  border-radius: 50px;
+  border: 10px solid black;
+}
+.title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 100px;
+}
+#muscular-head {
+  margin-left: 0;
+  margin-top: 40px;
+}
+.first {
+  background-image: linear-gradient(#c8c84e, orange);
+}
+.second {
+  background-image: linear-gradient(#d77f77, #9c3e36);
+}
+.final {
+  background-image: linear-gradient(#d8d7d7, #05c7a0);
+}
