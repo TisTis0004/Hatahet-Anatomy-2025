@@ -220,12 +220,18 @@ h2 a {
 .card {
   filter: blur(2px) grayscale(100%);
 }
+.card1-sheet {
+  filter: blur(0px) grayscale(0%);
+}
 .card h2 {
   cursor: default;
 }
 .card:hover {
   filter: blur(0) grayscale(100%);
   box-shadow: none;
+}
+.card1-sheet:hover {
+  filter: blur(0px) grayscale(0%);
 }
 .coming-soon {
   margin-top: 2.5rem;
