@@ -223,6 +223,21 @@ h2 a {
 .card1-sheet {
   filter: blur(0px) grayscale(0%);
 }
+/* .card2-sheet {
+  filter: blur(0px) grayscale(0%);
+}
+.card3-sheet {
+  filter: blur(0px) grayscale(0%);
+} */
+.card1-vid {
+  filter: blur(0px) grayscale(0%);
+}
+/* .card2-vid {
+  filter: blur(0px) grayscale(0%);
+}
+.card3-vid {
+  filter: blur(0px) grayscale(0%);
+} */
 .card h2 {
   cursor: default;
 }
