@@ -248,6 +248,9 @@ h2 a {
 .card1-sheet:hover {
   filter: blur(0px) grayscale(0%);
 }
+.card1-vid:hover {
+  filter: blur(0px) grayscale(0%);
+}
 .coming-soon {
   margin-top: 2.5rem;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
